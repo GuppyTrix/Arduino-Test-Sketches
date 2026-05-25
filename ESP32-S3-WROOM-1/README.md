@@ -21,6 +21,10 @@ ESP32-S3-DEV-KIT-N8R8 – Uses ESP32-S3-WROOM-1 module with 8 MB Flash memory an
 >
 > When using WiFi, A10~A17 cannot be used leaving only 26 usable GPIO pins.
 
+> [!NOTE]
+> This leaves the following pins free to use:
+> 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 21, 39, 40, 41, 42, 43, 44, 47, 48
+
 ## Pinout and features
 
 [waveshare website](https://www.circuitstate.com/pinouts/waveshare-esp32-s3-dev-kit-nxr8-wi-fi-development-board-pinout-diagram-arduino-reference/#google_vignette).
