@@ -67,3 +67,16 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# VS Code workspace files
+# Ignore machine-specific/editor-local files by default.
+**/.vscode/*
+
+# Keep shared Arduino task workflow/config files in git.
+!/.vscode/tasks.json
+!/.vscode/arduino.json
+!/.vscode/scripts/
+!/.vscode/scripts/arduino-helper.ps1
+
+# Keep per-board Arduino override configs in git.
+!**/.vscode/arduino.json
